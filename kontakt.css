@@ -1,0 +1,128 @@
+/*allmänt*/
+.innehåll {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: black;
+}
+
+/*styling för meddelande textarea*/
+textarea {
+  width: 95%;
+  padding: 15px;
+  border: solid 1px black;
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: "Playfair Display", serif;
+}
+
+/*styling för skicka in knappen*/
+button[type="submit"] {
+  background-color: rgb(255, 255, 255);
+  border: solid black;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 15px 20px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+
+/*styling för namn, telefonnr. och e-post*/
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  background-color: rgb(255, 255, 255);
+  border: solid 1px;
+  font-size: 16px;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 95%;
+}
+
+/*styling för error text*/
+#resultatfnamn {
+  color: red;
+}
+
+#resultatenamn {
+  color: red;
+}
+
+#resultattelnr {
+  color: red;
+}
+
+#resultatmail {
+  color: red;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+  body {
+    background-color: #dbbb99;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .innehåll {
+    display: grid;
+    min-height: 100vh;
+    width: 95%;
+    margin-bottom: 30px;
+  }
+
+  textarea {
+    width: 95%;
+    padding: 15px;
+    border: solid 1px black;
+    background-color: lightgrey;
+    font-size: 18px;
+    max-height: 200px;
+    overflow-y: auto;
+    
+  }
+
+  button[type="submit"] {
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top: 15px;
+  }
+
+  button:hover {
+    background-color: darkgray;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    background-color: lightgray;
+    border: solid 1px;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 95%;
+  }
+
+  #resultatfnamn {
+    color: red;
+  }
+
+  #resultatenamn {
+    color: red;
+  }
+
+  #resultattelnr {
+    color: red;
+  }
+
+  #resultatmail {
+    color: red;
+  }
+}

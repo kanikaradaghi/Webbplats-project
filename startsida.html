@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="galleri.css">
+    <script defer src="galleri.js"></script>
+    <link rel="stylesheet" href="startsida.css">
+    <link rel="icon" type="image/png" href="Smartart.png">
+    <link rel="stylesheet" href="meny.css">
+    <script defer src="startsida.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>Smart.art</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div id="bild1">
+          <a href="startsida.html">
+            <img src="Smartart1.png" id="b1" alt="Bild på logga">
+          </a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menuIcon">&#9776;</label>
+        <ul id="menu">
+          <li> <a href="galleri.html">Galleri</a> </li>
+          <li> <a href="omOss.html">Kreatörer</a> </li>
+          <li> <a href="kontakt.html">Kontakt</a> </li>
+          <li>
+            <div class="material-symbols-outlined">
+              shopping_cart</div>
+            {{ cart }}
+          </li>
+        </ul>
+      </header>
+      <div class="bildspelMitten">
+        <div class="bildspel">
+          <i id="vänster" class="pilVänster">&#8678;</i>
+          <div class="karusell">
+            <img src="Bilder/historiskbild1.jpeg" alt="Bild på brun konstverk">
+            <img src="Bilder/historiskbild2.jpeg"
+              alt="Bild på blåbrunt konstverk">
+            <img src="Bilder/historiskbild3.jpeg" alt="Bild på antikt konstverk">
+            <img src="Bilder/bild8.jpeg" alt="Bild på konstverk av antika rom">
+            <img src="Bilder/bild9.jpeg"
+              alt="Bild på konstverk i surrealistisk brunblå stil">
+            <img src="Bilder/india.jpeg"
+              alt="Bild på konstverk i futurialistisk indisk stil">
+            <img src="Bilder/newyork.jpeg"
+              alt="Bild på konstverk med USAs skapelser">
+          </div>
+          <i id="höger" class="pilHöger">&#8680;</i>
+        </div>
+      </div>
+      <main>
+        <p>
+          Välkommen till SmartArt, ett företag som säljer konst som är
+          inspirerad av framtiden. Vi erbjuder unika och
+          originella konstverk som utmanar din fantasi och kreativitet. Våra
+          konstnärer använder sig av olika tekniker och
+          material för att skapa konst som speglar deras visioner av hur
+          framtiden kan se ut. Hos oss kan du hitta
+          målningar, skulpturer, kollage, digital konst, pixelkonst och mycket
+          mer. <br><br>
+
+          SmartArt grundades 2022 utav 4 konstälskande vänner efter en resa till
+          Louvrén i Paris.
+          Samtliga grundare har studerat på konsthögskola och har nu som mål att
+          dela passionen för konst vidare med andra.
+          Vi har ett mycket brett utbud av futuristisk konst och strävar alltid
+          efter att erbjuda hög kvalitet, god kundservice
+          samt förmånliga priser. Vår vision är att göra konst tillgängligt och
+          inspirerande för alla. <br><br>
+
+          Vi brinner för att inspirera fler till att uppskatta och värdesätta
+          konst oavsett ålder, kön och erfarenhet.
+          Vi vill locka både nya och återkommande kunder genom att erbjuda ett
+          varierat och ständigt uppdaterat utbud av
+          intressanta verk - detta kombinerat med personlig rådgivning och
+          guidning.<br><br>
+
+          Vi arrangerar regelbundet utställningar, vernissager och workshops i
+          vår nyöppnade butik. Vår passion för konst och vår önskan att göra den
+          tillgänglig för alla är kärnan i vad vi gör på SmartArt.
+          Vi tror starkt på att konst kan vara en kraftfull katalysator för
+          kreativitet och självuttryck.
+          Våra konstverk är inte bara dekorationer för ditt hem eller kontor; de
+          är portaler till fantastiska världar och idéer som kan inspirera och
+          transformera.<br><br>
+
+          Vi är stolta över att arbeta med ett brett spektrum av begåvade
+          konstnärer, från etablerade mästare till lovande unga talanger.
+          Deras mångfald av stil och teknik ger vårt sortiment en rikedom och
+          dynamik som alltid håller dig nyfiken på vad nästa konstverk kommer
+          att vara.<br><br>
+
+          Hos SmartArt är det inte bara konstverken som är viktiga, utan också
+          våra kunder.
+          Vi strävar efter att erbjuda den bästa möjliga kundupplevelsen,
+          oavsett om du är en konstkännare eller bara nyfiken på att utforska
+          den fascinerande världen av futuristisk konst.
+          Vårt team är alltid redo att erbjuda personlig rådgivning och hjälpa
+          dig att hitta det perfekta konstverket som passar din smak och stil.<br><br>
+
+          Vi tror att konst har kraften att förena människor och öppna dörrar
+          till nya tankar och idéer.
+          Därför ordnar vi regelbundet evenemang som utställningar, vernissager
+          och workshops i vår nyöppnade butik.
+          Vi hoppas att dessa evenemang blir mötesplatser där konstnärer och
+          konstälskare kan samlas, dela sina perspektiv och skapa tillsammans.<br><br>
+
+          Välkommen till SmartArt, där framtiden och konsten möts för att skapa
+          något helt unikt och inspirerande. Vi ser fram emot att utforska denna
+          spännande resa tillsammans med dig.
+        </p>
+      </main>
+    </div>
+  </body>
+</html>

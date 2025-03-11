@@ -1,0 +1,89 @@
+.bildspelMitten {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.karusell {
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.bildspel {
+  max-width: 1200px;
+  position: relative;
+}
+
+.bildspel i {
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  background: #fff;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.bildspel i:first-child {
+  left: -23px;
+}
+
+.bildspel i:last-child {
+  right: -23px;
+}
+
+.karusell img {
+  height: 340px;
+  object-fit: cover;
+  margin-left: 14px;
+  width: calc(100% / 3);
+  transition: 0.5s;
+  position: relative;
+}
+
+.karusell img:first-child {
+  margin-left: 0px;
+}
+
+.karusell img:hover {
+  height: 342px;
+  box-shadow: 5px 10px 5px 5px gray;
+  opacity: 0.8;
+}
+
+p {
+  margin: 70px;
+  text-align: left;
+  justify-content: center;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 719px) {
+  .karusell img {
+    margin-left: 30px;
+    width: 100%;
+  }
+
+  p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1279px) {
+  .karusell img {
+    margin-left: 24px;
+    width: calc(100% / 2);
+  }
+
+  p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

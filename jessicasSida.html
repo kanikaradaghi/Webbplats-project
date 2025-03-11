@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meny.css">
+    <link rel="stylesheet" href="jessicas.css">
+    <script defer src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script defer src="jessicas.js"></script>
+    <script defer src="galleri.js"></script>
+    <script defer src="jessicasScript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    >
+    <title>Art by Jessica</title>
+    <link rel="icon" type="image/png" href="Smartart.png">
+  </head>
+
+  <body>
+    <header>
+      <div id="app">
+        <div id="bild1">
+          <a href="startsida.html">
+            <img src="Smartart1.png" id="b1" alt="Bild på logga">
+          </a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menuIcon">&#9776;</label>
+        <ul id="menu">
+          <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="omOss.html">Kreatörer</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li>
+            <div class="material-symbols-outlined">shopping_cart</div>
+            {{ cart }}
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div id="lottas">
+      <img
+        class="vue"
+        id="bilden"
+        src="Bilder/person1.jpg"
+        alt="Bild på Lotta"
+      >
+      <h1 id="namn">Jessica</h1>
+      <p>
+        Att vara konstnär är att leva i konsten, att leva i det föränderliga,
+        det vackra och det abstrakta. Jessica har vigt sitt liv åt att uttrycka
+        de känslor och upplevelser som vi alla upplever, så att vi med ögon kan
+        beskåda dem. Hon har varit aktiv i över 20 år, och började beröra
+        människor med animeringar, målningar och skisser redan i förskoleåldern.
+        I dag jobbar hon heltid med att skapa konst med målet att skapa
+        eftertanke hos betraktaren. Jessica har genom åren tilldelats flera
+        utmärkelser för sin konst, däribland stadskonstens juniorpris,
+        landskapetsverkets konstnärspris och Årets stjärnskott i Svealand
+      </p>
+
+      <div class="vue" id="boxen">
+        <h2 id="erfarenheter">Erfarenheter</h2>
+        <div class="detaljer">
+          <h3>Digital konst</h3>
+          <h4>70%</h4>
+        </div>
+        <div class="bar">
+          <div id="digital-bar"></div>
+        </div>
+
+        <div class="detaljer">
+          <h3>Akvarell</h3>
+          <h4>55%</h4>
+        </div>
+        <div class="bar">
+          <div id="akvarell-bar"></div>
+        </div>
+
+        <div class="detaljer">
+          <h3>Futurism</h3>
+          <h4>80%</h4>
+        </div>
+        <div class="bar">
+          <div id="futurism-bar"></div>
+        </div>
+
+        <div class="detaljer">
+          <h3>Surrealism</h3>
+          <h4>90%</h4>
+        </div>
+        <div class="bar">
+          <div id="surrealism-bar"></div>
+        </div>
+
+        <div class="detaljer">
+          <h3>Graffiti</h3>
+          <h4>60%</h4>
+        </div>
+        <div class="bar">
+          <div id="graffiti-bar"></div>
+        </div>
+      </div>
+
+      <h2>Portfolio</h2>
+      <div id="appen">
+        <div id="produktContainer">
+          <div v-for="p in projekt" :key="kund">
+            <div class="projekten">
+              <h3>{{p.titel}}</h3>
+              <h4>{{p.kund}}</h4>
+              <p>{{p.beskrivning}}</p>
+            </div>
+            <!--v-for-->
+          </div>
+          <!--jgContainer-->
+        </div>
+        <!--produkter-->
+      </div>
+      <!--appen-->
+    </div>
+    <!--lottas-->
+  </body>
+</html>

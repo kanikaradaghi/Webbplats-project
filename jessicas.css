@@ -1,0 +1,228 @@
+/*Allmänt*/
+body {
+  padding: 2.5rem;
+  background-color: #f6fcff;
+}
+
+#lottas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p,
+h4 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-weight: 200;
+}
+/*Skillbar*/
+#boxen {
+  color: black;
+}
+
+#boxen h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#boxen h3,
+#boxen h4 {
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+}
+
+.detaljer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.7em 0 0.3em 0;
+}
+
+.bar {
+  border: 2px solid #0d96e07d;
+  border-radius: 20px;
+}
+
+.bar div {
+  width: 0;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #00517d;
+}
+
+#digital-bar {
+  animation: digital-fill 5s forwards;
+}
+
+@keyframes digital-fill {
+  100% {
+    width: 70%;
+  }
+}
+
+#akvarell-bar {
+  animation: akvarell-fill 4s forwards;
+}
+
+@keyframes akvarell-fill {
+  100% {
+    width: 55%;
+  }
+}
+
+#futurism-bar {
+  animation: futurism-fill 5s forwards;
+}
+
+@keyframes futurism-fill {
+  100% {
+    width: 80%;
+  }
+}
+
+#surrealism-bar {
+  animation: surrealism-fill 5s forwards;
+}
+
+@keyframes surrealism-fill {
+  100% {
+    width: 90%;
+  }
+}
+
+#graffiti-bar {
+  animation: graffiti-fill 4s forwards;
+}
+
+@keyframes graffiti-fill {
+  100% {
+    width: 60%;
+  }
+}
+
+/*Projekten*/
+#produktContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projekten {
+  margin: 0rem 2rem;
+}
+
+.projekten h3 {
+  font-size: 1.5em;
+  background-image: linear-gradient(#D1F1FE, #00517d);
+  padding: 1em;
+  border-radius: 1em;
+  border: solid #00517d;
+}
+
+.projekten h4 {
+  font-size: 1.3rem;
+}
+
+.projekten p,
+.projekten h4 {
+  padding-left: 0.6rem;
+}
+
+
+/*Animering/transition*/
+#namn {
+  transition-duration: 3s;
+}
+
+.bakgrund {
+  background-color: #D1F1FE;
+  font-size: 2em;
+  padding: 0.5em;
+  border-radius: 0.6em;
+}
+
+#bilden {
+  transition: transform 3s ease;
+  transform-origin: top;
+}
+
+
+#boxen {
+  transition: transform 3s ease;
+}
+
+.storre {
+  transform: scale(1.07);
+}
+
+/*Liten skärm*/
+@media only screen and (max-width: 540px) {
+
+  img {
+    padding-top: 0.5em;
+    width: 90vw;
+  }
+
+  #boxen {
+    width: 80vw;
+  }
+
+  .projekten {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 90vw;
+  }
+
+  h1 {
+    margin-top: 0.7em;
+    margin-bottom: 0em;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+  }
+
+  p {
+    width: 90vw;
+  }
+}
+
+/*Stor skärm*/
+@media only screen and (min-width: 541px) {
+
+  #bilden {
+    padding-top: 1em;
+    width: 60vw;
+  }
+
+  h1 {
+    margin-top: 3rem;
+    margin-bottom: 0em;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  p {
+    max-width: 60vw;
+  }
+
+  #boxen {
+    width: 50%;
+    padding: 1em;
+    margin: 2em;
+  }
+
+  .projekten {
+    border-radius: 1em;
+    max-width: 35vw;
+  }
+
+}

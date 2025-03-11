@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: #dbbb99;
+  font-family: "Playfair Display";
+}
+
+h1,
+#kontakten {
+  text-align: center;
+}
+
+#bild1 {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+  #menuIcon {
+    font-size: xx-large;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #menu {
+    display: none;
+    text-align: center;
+    justify-content: left;
+    font-size: 1.2rem;
+    margin: 1em;
+  }
+
+  #menu-toggle:checked ~ #menu {
+    display: block;
+  }
+
+  #menu li {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #menuIcon {
+    display: none;
+  }
+
+  #menu li {
+    display: inline;
+  }
+
+  #menu {
+    text-align: center;
+  }
+
+  #menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 1em;
+  }
+
+  header a {
+    text-decoration: overline;
+    color: rgba(0, 0, 0, 0.88);
+  }
+}

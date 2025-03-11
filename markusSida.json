@@ -1,0 +1,38 @@
+{
+  "Projekt": [
+    {
+      "Titel": "The GOAT",
+      "Bild": "Bilder/LewisHamilton.jpeg",
+      "Kund": "Lewis Hamilton",
+      "Beskrivning": "“Lewis Hamilton” framstår som en levande skulptur i detta konstverk. Hans intensiva blick fångar betraktaren, medan hans racinghjälm, skimrande med regnbågens färger, symboliserar hans engagemang för mångfald och inkludering. Konstverket fångar hans snabbhet och precision på banan, med abstrakta linjer och former som skapar en känsla av rörelse. Hamiltons passion och beslutsamhet framträder tydligt, vilket gör konstverket till en hyllning till hans framstående karriär inom Formel 1."
+    },
+
+    {
+      "Titel": "Smooth operator",
+      "Bild": "Bilder/CarlosSainz.jpeg",
+      "Kund": "Carlos Sainz",
+      "Beskrivning": "“Carlos Sainz” framställs som en kraftfull silhuett i detta konstverk. Hans intensiva blick och självsäkra hållning illustrerar hans outtröttliga strävan efter perfektion. Hans racinghjälm, prydd med pulserande färger, speglar hans livfulla personlighet och passion för motorsport. Konstverket använder djärva, abstrakta former för att skapa en känsla av hastighet och rörelse, vilket symboliserar Sainz blixtsnabba reflexer på banan. Detta konstverk är en hyllning till Sainz framstående karriär inom Formel 1, och fångar hans mod, beslutsamhet och outtröttliga strävan efter seger."
+    },
+
+    {
+      "Titel": "Rising star",
+      "Bild": "Bilder/LandoNorris.jpeg",
+      "Kund": "Lando Norris",
+      "Beskrivning": "“Lando Norris” avbildas som en strålande gestalt i detta konstverk. Hans skarpa blick och självsäkra attityd illustrerar hans obevekliga jakt på framgång. Hans racinghjälm, dekorerad med levande färger, återspeglar hans dynamiska personlighet och kärlek till racing. Konstverket använder djärva, abstrakta former för att skapa en känsla av fart och rörelse, vilket symboliserar Norris blixtsnabba reflexer på banan. Detta konstverk är en hyllning till Norris framstående karriär inom Formel 1, och fångar hans mod, beslutsamhet och outtröttliga strävan efter seger."
+    },
+
+    {
+      "Titel": "The french",
+      "Bild": "Bilder/EstabanOcon.jpeg",
+      "Kund": "Estaban Ocon",
+      "Beskrivning": "“Esteban Ocon” framställs som en inspirerande figur i detta konstverk. Hans koncentrerade blick och självsäkra hållning illustrerar hans outtröttliga jakt på framgång. Hans racinghjälm, prydd med pulserande färger, speglar hans dynamiska personlighet och passion för motorsport. Konstverket använder djärva, abstrakta former för att skapa en känsla av hastighet och rörelse, vilket symboliserar Ocons blixtsnabba reflexer på banan. Detta konstverk är en hyllning till Ocons framstående karriär inom Formel 1, och fångar hans mod, beslutsamhet och outtröttliga strävan efter seger."
+    },
+
+    {
+      "Titel": "The Man",
+      "Bild": "Bilder/CharlesLeclerc.jpeg",
+      "Kund": "Charles Leclerc",
+      "Beskrivning": "“Charles Leclerc” framställs som en strålande gestalt i detta konstverk. Hans intensiva blick och självsäkra attityd illustrerar hans obevekliga strävan efter perfektion. Hans racinghjälm, prydd med pulserande färger, speglar hans dynamiska personlighet och passion för motorsport. Konstverket använder djärva, abstrakta former för att skapa en känsla av fart och rörelse, vilket symboliserar Leclercs blixtsnabba reflexer på banan. Detta konstverk är en hyllning till Leclercs framstående karriär inom Formel 1, och fångar hans mod, beslutsamhet och outtröttliga strävan efter seger."
+    }
+  ]
+}

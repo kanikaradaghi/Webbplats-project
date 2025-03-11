@@ -1,0 +1,71 @@
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+  body {
+    padding: 1rem;
+  }
+
+  .anställd img {
+    width: 100%;
+    display: inline;
+    justify-content: left;
+  }
+
+  .anställd p {
+    padding-bottom: 2em;
+    border-bottom: antiquewhite dashed;
+  }
+
+  .container-anstallda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    padding: 2.5rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*OM OSS*/
+
+  .anställd img {
+    width: 50vw;
+    display: inline;
+    justify-content: center;
+    min-width: 370px;
+  }
+
+  .anställd {
+    margin-bottom: 1rem;
+    width: 50vw;
+  }
+
+  .anställd h2 {
+    color: rgb(40, 40, 40);
+  }
+
+  .anställd h2:hover {
+    background-color: antiquewhite;
+    padding: 0.2em;
+    transition-duration: 0.2s;
+  }
+
+  .anställd p {
+    color: rgb(0, 0, 0);
+    padding-bottom: 2em;
+    border-bottom: antiquewhite dashed;
+    width: 100%;
+  }
+
+  .container-anstallda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="författare" content="Kani Karadaghi">
+    <title>Kreatör: Kani</title>
+    <link rel="stylesheet" href="meny.css" type="text/css">
+    <link rel="stylesheet" href="kanissida.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    >
+    <script defer src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script defer src="galleri.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <div id="bild1">
+          <a href="startsida.html">
+            <img src="Smartart1.png" id="b1" alt="Bild på logga">
+          </a>
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menuIcon">&#9776;</label>
+        <ul id="menu">
+          <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="omOss.html">Kreatörer</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li>
+            <div class="material-symbols-outlined">shopping_cart</div>
+            {{ cart }}
+          </li>
+        </ul>
+      </header>
+    </div>
+
+    <main class="huvudinnehåll">
+      <article class="box">
+        <h2>Om mig</h2>
+
+        <p>
+          Hej, jag är Kani, en passionerad konstnär med en kärlek för att
+          utforska framtidens möjligheter genom konstens prisma. Jag är stolt
+          över att vara en del av Smart.art, det innovativa företag som jag med
+          glädje medgrundade. På den här sidan vill jag dela med mig av min
+          konstnärliga resa och min vision om framtiden.
+        </p>
+
+        <p>
+          Efter att ha tagit examen från konsthögskolan, insåg jag att konsten
+          var mitt sätt att uttrycka min fascination för teknik, vetenskap och
+          hur dessa krafter formar vårt samhälle. Jag kände att det var viktigt
+          att förena min passion för konst med min övertygelse om att teknologi
+          kan förändra världen på djupgående sätt. Därför startade jag Smart.art
+          tillsammans med några likasinnade vänner.
+        </p>
+
+        <p>
+          Min konst är en utforskning av mötet mellan människa och teknik, och
+          jag tror att den bästa konsten är den som utmanar oss att tänka
+          annorlunda, inspirerar oss och väcker frågor. Genom mina verk försöker
+          jag skapa en dialog om hur teknologi och innovation påverkar oss, vår
+          kultur och vår framtid.
+        </p>
+
+        <p>
+          På Smart.art strävar vi efter att erbjuda konst som går bortom det
+          traditionella och bjuder in till reflektion och diskussion. Vi tror
+          att konst har kraften att öppna dörrar till nya perspektiv och idéer,
+          och vi hoppas att du kommer att vara en del av den resan med oss.
+        </p>
+
+        <p>
+          Så utforska gärna mina verk, lär känna mig och mitt arbete, och känn
+          dig välkommen att kontakta mig om du har frågor eller vill veta mer om
+          mina konstverk och vår vision på Smart.art. Tillsammans kan vi
+          utforska framtiden genom konst och innovation.
+        </p>
+
+        <p>
+          Tack för att du besöker min sida, och jag ser fram emot att dela mer
+          med dig i framtiden!
+        </p>
+
+        
+        <figure>
+          <img id="minbild"
+            src="bilder/kanisbild.png"
+            alt="bild på kreatör Kani"
+          >
+          <figcaption>Bild på mig</figcaption>
+        </figure>
+      </article>
+
+      <article class="box">
+        <h2>Mina kompetenser</h2>
+
+        <h3 class="kompet">MÅLNING</h3>
+        <div class="behållare">
+          <div id="fyllningmålning">90%</div>
+        </div>
+
+        <h3 class="kompet">ADOBE PHOTOSHOP</h3>
+        <div class="behållare">
+          <div id="fyllningphotoshop">80%</div>
+        </div>
+
+        <h3 class="kompet">3D-PRINT</h3>
+        <div class="behållare">
+          <div id="fyllningprint">60%</div>
+        </div>
+      </article>
+
+      <article class="box">
+        <h2>Mina projekt</h2>
+
+        <section>
+          <h3>Digitala Drömmar</h3>
+          <p>Kund: Privat samlare</p>
+          <p>
+            Kort Beskrivning: En serie digitala målningar som utforskar
+            gränslandet mellan teknologi och mänskligt känsloliv. Verken är
+            skapade med avancerade digitala tekniker och representerar en vision
+            om en digital framtid.
+          </p>
+          <p>
+            Mer Information: Varje målning är unik och skapad med avancerad
+            digital teknik som neurala nätverk och generativ konst. Verken har
+            visats på flera konstutställningar och har blivit föremål för
+            intressanta diskussioner om teknikens roll i konstvärlden.
+          </p>
+        </section>
+
+        <section>
+          <h3>Teknikens Dialog</h3>
+          <p>Kund: Teknikkonferens</p>
+          <p>
+            Kort Beskrivning: En interaktiv installation skapad för en
+            teknikkonferens. Besökare interagerar med konstverket genom att
+            använda sina smartphones och skapar tillsammans en dynamisk
+            konstupplevelse.
+          </p>
+          <p>
+            Mer Information: Installationen använde sig av augmented reality
+            (AR) och mobila applikationer för att skapa en dialog mellan teknik
+            och konst. Den blev en populär attraktion på konferensen och
+            underströk möjligheterna med teknikbaserad konst.
+          </p>
+        </section>
+
+        <section>
+          <h3>Mänsklighetens Framtid</h3>
+          <p>Kund: Vetenskapsmuseum</p>
+          <p>
+            Kort Beskrivning: En utställning på ett vetenskapsmuseum som
+            utforskar relationen mellan människa och teknik genom konstverk och
+            interaktiva installationer.
+          </p>
+          <p>
+            Mer Information: Utställningen inkluderade en serie skulpturer,
+            målningar och interaktiva installationer som bjöd in besökarna att
+            reflektera över teknologins inverkan på mänsklig utveckling och
+            samhället i stort. Den var en framgång både hos museumbesökare och
+            kritiker.
+          </p>
+        </section>
+
+        <section>
+          <h3>Teknologins Väv</h3>
+          <p>Kund: Teknikföretag</p>
+          <p>
+            Kort Beskrivning: En konstinstallation som placerades i ett
+            teknikföretags huvudkontor. Verket bestod av en serie vävda paneler
+            som kombinerade traditionell hantverk med modern teknik.
+          </p>
+          <p>
+            Mer Information: Konstinstallationen symboliserade företagets
+            engagemang för att förena innovation och kreativitet. Den var en del
+            av företagets strävan att skapa en inspirerande arbetsmiljö och
+            främja konstens roll inom teknikindustrin.
+          </p>
+        </section>
+
+        <section>
+          <h3>Konst och Samhälle</h3>
+          <p>Kund: Konststiftelse</p>
+          <p>
+            Kort Beskrivning: Ett samarbete med en konststiftelse för att skapa
+            konstverk som utforskar samhällets utveckling och teknologins
+            påverkan på människor och kultur.
+          </p>
+          <p>
+            Mer Information: Projektet involverade flera konstnärer och
+            resulterade i en serie konstverk som användes i utbildningssyfte och
+            för att främja konstens roll i samhällsdebatten. Det var en viktig
+            del av att främja samhällsengagemang genom konst.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>
+        <a href="#">Tillbaka upp</a>
+      </p>
+    </footer>
+  </body>
+</html>

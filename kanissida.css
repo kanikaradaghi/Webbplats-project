@@ -1,0 +1,114 @@
+body {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+header {
+  padding: 20px;
+}
+
+#minbild{
+  width: 270px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.huvudinnehåll {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+/*Skill bar*/
+.behållare {
+  border: solid black;
+  border-radius: 10px;
+  width: 85%;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+#fyllningmålning {
+  color: black;
+  font-weight: bold;
+  background-color: green;
+  animation: målningifylld 15s forwards;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 0%;
+}
+
+@keyframes målningifylld {
+  to {
+    width: 90%;
+  }
+}
+
+#fyllningphotoshop {
+  color: black;
+  font-weight: bold;
+  background-color: green;
+  animation: photoshopifylld 15s forwards;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 0%;
+}
+
+@keyframes photoshopifylld {
+  to {
+    width: 80%;
+  }
+}
+
+#fyllningprint {
+  color: black;
+  font-weight: bold;
+  background-color: green;
+  animation: printifylld 15s forwards;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 0%;
+}
+
+@keyframes printifylld {
+  to {
+    width: 60%;
+  }
+}
+
+/*Tillbaka upp länken*/
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Mindre skärm*/
+@media screen and (max-width: 835px) {
+  .huvudinnehåll {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 21px;
+  }
+
+  a {
+    font-size: 21px;
+  }
+}

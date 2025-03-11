@@ -1,0 +1,191 @@
+/* Generell css för skärmar större än media query  */
+
+#Sara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#anställdBild {
+  width: 50vw;
+  margin-bottom: 3rem;
+}
+
+#litenText p {
+  width: 850px;
+  text-align: left;
+}
+
+.TextRuta {
+  width: 90%;
+  color: black;
+  text-align: center;
+}
+
+.TextRuta h1 {
+  font-size: 30px;
+}
+
+.TextRuta h4 {
+  margin: 10px 0 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.body {
+  padding: 0;
+}
+.main-content {
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+#erfarenheter {
+  text-align: center;
+}
+
+h4 {
+  margin: 5px;
+}
+
+.kunskaper {
+  width: 60%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(170, 101, 101);
+  padding: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0.25);
+}
+
+.kunskaps-bar {
+  background: pink;
+  display: block;
+  height: 35px;
+  border: 1px solid rgb(170, 101, 101);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(240, 153, 240, 0.55),
+    0 1px 2px rgba(235, 82, 146, 0.473);
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Modern {
+  width: 0;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(170, 101, 101);
+  display: block;
+  animation: fillModern 5s forwards;
+}
+
+.Animeringar {
+  width: 0;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(170, 101, 101);
+  display: block;
+  animation: fillAnimeringar 5s forwards;
+}
+
+.Konsthistoria {
+  width: 0;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(170, 101, 101);
+  display: block;
+  animation: fillKonsthistoria 5s forwards;
+}
+
+.Arkitektur {
+  width: 0;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(170, 101, 101);
+  display: block;
+  animation: fillArkitektur 5s forwards;
+}
+
+#saras-projekt {
+  text-align: center;
+}
+
+.projekt-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.projekt-kort {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 1rem;
+  max-width: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.projekt-kort:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projekt-content {
+  padding: 2px 16px;
+}
+
+@keyframes fillModern {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes fillAnimeringar {
+  100% {
+    width: 30%;
+  }
+}
+@keyframes fillKonsthistoria {
+  100% {
+    width: 100%;
+  }
+}
+@keyframes fillArkitektur {
+  100% {
+    width: 65%;
+  }
+}
+
+.icons {
+  color: black;
+  margin: 1rem;
+}
+.icons-div {
+  text-align: center;
+}
+
+/* Liten skärm */
+@media only screen and (max-width: 540px) {
+  .kunskaper {
+    width: 80%;
+  }
+  #anställdBild {
+    width: 80vw;
+    margin-bottom: 2rem;
+  }
+  .projekt-container {
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+
